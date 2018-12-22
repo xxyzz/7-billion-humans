@@ -1,0 +1,31 @@
+-- 7 Billion Humans (2145) --
+-- 6: Little Exterminator 1 --
+
+step s
+step sw
+step sw
+step se
+step e
+step se
+step s
+step s
+pickup c
+
+-- 7 Billion Humans (2145) --
+-- 6: Little Exterminator 1(change one line) --
+
+step s
+step s
+step w
+step w
+step s
+step s
+a:
+step e
+if s == hole:
+	jump a
+endif
+step s
+step s
+step s
+pickup c
