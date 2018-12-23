@@ -8,13 +8,16 @@ endif
 if c == 1:
 	step n
 endif
-if c == 2:
-	step e
-endif
 if c == 3:
 	step s
 endif
 if c == 4:
 	step w
+endif
+if c == 2:
+	b:
+	step se
+	step se
+	jump b
 endif
 jump a

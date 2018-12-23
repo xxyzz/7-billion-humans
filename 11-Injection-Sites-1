@@ -9,3 +9,17 @@ if w == datacube and
 	drop
 endif
 jump a
+
+-- 7 Billion Humans (2145) --
+-- 11: Injection Sites 1(speed) --
+
+pickup s
+step s
+step s
+a:
+step s
+step s
+if c != datacube:
+	drop
+endif
+jump a
