@@ -1,0 +1,119 @@
+-- 7 Billion Humans (2145) --
+-- 13: Injection Sites 2 --
+
+pickup s
+step s
+a:
+step s
+step s
+step e
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step e
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step e
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step e
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step e
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step e
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step e
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step e
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step e
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step s
+step s
+step w
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step w
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step w
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step w
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step w
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step w
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step w
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step w
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+step w
+if w == datacube and
+ e == datacube and
+ c != datacube:
+	drop
+endif
+jump a
