@@ -1,0 +1,12 @@
+-- 7 Billion Humans (2145) --
+-- 32: Creative Writhing --
+
+a:
+mem1 = nearest datacube
+if mem1 == 0:
+	pickup mem1
+	write 99
+	drop
+endif
+step nw,w,sw,n,s,ne,e,se
+jump a
