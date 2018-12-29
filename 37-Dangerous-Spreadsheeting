@@ -2,16 +2,16 @@
 -- 37: Dangerous Spreadsheeting --
 
 a:
+step e
+b:
 mem1 = calc mem1 + c
 if e == hole:
 	step ne
-	if se != hole:
-		step se
-	else:
+	if se == hole:
 		step e
-		step se
 	endif
-	mem1 = calc mem1 + c
+	step se
+	jump b
 endif
 if e == wall:
 	pickup c
@@ -19,5 +19,4 @@ if e == wall:
 	drop
 	end
 endif
-step e
 jump a
